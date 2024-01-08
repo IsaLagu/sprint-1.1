@@ -1,0 +1,235 @@
+/* Primer bloque */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: black;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  background-color: dimgray;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.menu {
+  height: 50px;
+  background-color: orangered;
+  width: 25%;
+}
+
+.contact {
+  height: 50px;
+  background-color: orangered;
+  width: 50%;
+}
+
+.staff {
+  height: 50px;
+  background-color: orangered;
+  width: 25%;
+}
+
+.title_container {
+  display: flex;
+  background-color: orangered;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.title {
+  background-color: yellow;
+  height: 50px;
+  width: 100%;
+}
+
+/* Segundo bloque */
+
+.body {
+  background-color: black;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+}
+
+.section {
+  background-color: darkslategray;
+  width: 66%;
+  padding: 20px;
+}
+
+.row1 {
+  display: flex;
+  gap: 20px;
+}
+
+.article1 {
+  background-color: cadetblue;
+  width: 50%;
+  height: 50px;
+}
+
+.article2 {
+  background-color: cadetblue;
+  width: 50%;
+  height: 50px;
+}
+
+.row2 {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.article3 {
+  background-color: cadetblue;
+  width: 50%;
+  height: 50px;
+}
+
+.article4 {
+  background-color: cadetblue;
+  width: 50%;
+  height: 50px;
+}
+
+.paragraph {
+  background-color: deepskyblue;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.aside {
+  background-color: orangered;
+  width: 33%;
+  padding: 20px;
+}
+
+.paragraph1 {
+  background-color: yellow;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.paragraph2 {
+  background-color: yellow;
+  height: 50px;
+}
+
+/* Tercer bloque */
+
+.footer {
+  background-color: black;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.email {
+  background-color: olive;
+  height: 50px;
+}
+
+/* TABLET */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .body {
+    background-color: yellowgreen;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .section {
+    background-color: darkslategray;
+    width: 100%;
+  }
+
+  .aside {
+    background-color: orangered;
+    width: 100%;
+  }
+}
+
+/* MÓVIL */
+@media screen and (max-width: 768px) {
+  .body {
+    background-color: yellowgreen;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .section {
+    background-color: darkslategray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aside {
+    background-color: orangered;
+    width: 100%;
+  }
+
+  .row1 {
+    flex-direction: column;
+  }
+
+  .row2 {
+    flex-direction: column;
+  }
+
+  .article1 {
+    width: 100%;
+  }
+
+  .article2 {
+    width: 100%;
+  }
+
+  .article3 {
+    width: 100%;
+  }
+
+  .article4 {
+    width: 100%;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+  
+  .menu {
+    width: 100%;
+  }
+  
+  .contact {
+    width: 100%;
+  }
+  
+  .staff {
+    width: 100%;
+  }
+}
