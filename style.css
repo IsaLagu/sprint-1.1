@@ -26,6 +26,12 @@ body {
   height: 50px;
   background-color: orangered;
   width: 25%;
+  transition: all .3s ease-in-out;
+}
+
+.menu:hover {
+  background-color: purple;
+  transform: scale(1.13,1.2);
 }
 
 .contact {
